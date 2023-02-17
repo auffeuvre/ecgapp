@@ -1,0 +1,8 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>ECG</h1>
+<%= line_chart @array, min: 500, points: false %>
+<p> <%= @peeks %> </p>
+<h3> Valeur max: <%= @max_value %> </h3>
+</div>
+

@@ -1,0 +1,2 @@
+class Ecg < ApplicationRecord
+end

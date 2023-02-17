@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @ecg %>
+
+<div>
+  <%= link_to "Edit this ecg", edit_ecg_path(@ecg) %> |
+  <%= link_to "Back to ecgs", ecgs_path %>
+
+  <%= button_to "Destroy this ecg", @ecg, method: :delete %>
+</div>
